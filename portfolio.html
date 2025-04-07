@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <title>Responsive Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name"><strong>SHELBY</strong></p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link"><strong>Home</strong></a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link"><strong>About</strong></a>
+                    <div class="circle"></div>
+                <li class="nav_list">
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link"><strong>Projects</strong></a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link"><strong>Contact</strong></a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="nike.html" target="_blank"><button class="btn">Another Project<i class="uil uil-file-alt"></i></button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span><strong>Thomas Shelby</strong></span>
+            </div>
+            <div class="featured-name">
+                <p><strong>I'm</strong> <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p><strong>Experienced frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.</strong>
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn"><strong>Hire Me</strong></button>
+                <a href="#contact"><button class="btn"><strong>Contact</strong></button></a>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/" target="_blank"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+                <a href="https://in.linkedin.com/" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a href="https://dribbble.com/" target="_blank"><div class="icon"><i class="uil uil-dribbble"></i></div></a>
+                <a href="https://github.com" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="Thomas Shelby Peaky Blinders.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p><strong>Scroll Down</strong></p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1><strong>About Me</strong></h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3><strong>My introduction</strong></h3>
+                    <p>I am well-versed in <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> , and other <strong> edge
+                       frameworks and libraries</strong>,which allows me to implement interactive features.
+                       Additionally, I have experirence working with <strong>content management systems (CMS)</strong> like
+                       <strong>WordPress</strong>.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3><strong>Frontend</strong></h3>
+                    </div>
+                    <div class="skills-list">
+                        <span><strong>HTML</strong></span>
+                        <span><strong>CSS</strong></span>
+                        <span><strong>Bootstrap</strong></span>
+                        <span><strong>JavaScript</strong></span>
+                        <span><strong>React</strong></span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3><strong>Backend</strong></h3>
+                    </div>
+                    <div class="skills-list">
+                        <span><strong>PHP</strong></span>
+                        <span><strong>JAVA</strong></span>
+                        <span><strong>Python</strong></span>
+                        <span><strong>C++</strong></span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3><strong>Database</strong></h3>
+                    </div>
+                    <div class="skills-list">
+                        <span><strong>MySQL</strong></span>
+                        <span><strong>PostgreSQL</strong></span>
+                        <span><strong>MongoDB</strong></span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1><strong>Projects</strong></h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3><strong>Completed</strong></h3>
+                <label><strong>15+ Finished Projects</strong></label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3><strong>Clients</strong></h3>
+                <label><strong>25+ Happy Clients</strong></label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3><strong>Experience</strong></h3>
+                <label><strong>7+ Years in the field</strong></label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1><strong>Get in touch</strong></h1>
+            <span><strong>Do you have a project in your mind, contact me here</strong></span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2><strong>Find Me</strong> <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i><strong> Email: thomas@shelby.com</strong></p>
+                    <p><i class="uil uil-phone"></i><strong> Tel: +250 708 770 000</strong></p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn"><strong>Send</strong> <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p><strong>SHELBY</strong></p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home"><strong>Home</strong></a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about"><strong>About</strong></a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects"><strong>Projects</strong></a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact"><strong>Contact</strong></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p><strong>Copyright &copy; </strong><a href="#home" style="text-decoration: none;"><strong>Thomas Shelby</strong></a><strong> - All rights reserved</strong></p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
