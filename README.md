@@ -1,57 +1,42 @@
-Online Job Portal
-An online platform where job seekers can search for job opportunities and apply, while employers can post job listings and manage applications. The portal is responsive, easy to use, and designed with a modern user interface.
+ONLINEJOBPORTAL
 
-Table of Contents
-Features
+A basic project that demonstrates an Online Job Portal 💼 This repository contains our front-end project Online Job Portal Website, developed as part of our coursework. It is our first-year mini project, and we have uploaded it here as part of the subject Source Code Management (SCM).
 
-Technologies Used
+📌 Project Overview
+The Online Job Portal is a web application designed to connect job seekers with potential employers. It provides a responsive platform where users can search and apply for jobs, and companies can post job vacancies and manage applications. The website is fully responsive and optimized for both desktop and mobile users.
 
-Installation
+The portal includes the following sections:
 
-Usage
+Home Page
 
-Contributing
+Job Listings
 
-License
+User Registration/Login (Job Seekers & Employers)
 
-Features
-Job Listings: Users can browse and search for job opportunities.
+Job Search & Filters
 
-Job Applications: Job seekers can create a profile, upload their resume, and apply directly to jobs.
+Apply for Jobs
 
-Employer Dashboard: Employers can post jobs, manage applications, and view candidate profiles.
+Post a Job (for Employers)
 
-Search & Filter: Advanced filters for job type, location, experience level, and skills.
+User Profile Management
 
-User Profiles: Job seekers and employers can create and manage profiles.
+Admin Dashboard (Optional)
 
-Responsive Design: Fully mobile-friendly for an optimal experience on all devices.
+The project was developed using HTML, CSS, and JavaScript. The design is clean and modern, featuring smooth navigation and responsive layout adjustments for various devices.
 
-Animations: Smooth transitions and UI animations for a dynamic user experience.
+📁 Repository Contents
+This repository includes:
 
-Technologies Used
-Frontend:
+index.html – Main homepage
 
-HTML5, CSS3, JavaScript
+jobs.html – Job listings and filters
 
-React.js (or another frontend framework)
+login.html, register.html – Authentication pages
 
-TailwindCSS (for styling)
+dashboard.html – User dashboard for applications and job posts
 
-Smooth Animations (using CSS and/or JavaScript libraries)
+style.css – Stylesheet
 
-Backend:
+script.js – Core interactivity logic
 
-Node.js and Express (optional for backend APIs)
-
-MongoDB (optional for database management)
-
-JWT/OAuth Authentication (for secure login)
-
-Tools:
-
-Git for version control
-
-Figma or Adobe XD for design wireframes
-
-Google PageSpeed Insights for performance optimization
